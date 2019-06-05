@@ -1,0 +1,1168 @@
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Jun  4 13:03:17 2018
+Nodename: discovery2.neu.edu
+Arch: x86_64
+Dir: /home/harms.n/Code/hotbit/lib/python/hotbit/test
+System: CAu
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[11.85,10.00,10.00] Ang, 
+   cosines(12,13,23):[0.00,0.00,0.00]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.1 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+2 atoms, 13 states, 15.0 electrons (7.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element Au in /home/harms.n/Code/hotbit/param/fixed_parameters/Au.elm
+    *Scalar-relativistic gold
+Element C in /home/harms.n/Code/hotbit/param/fixed_parameters/C.elm
+    *fixed set C
+
+Interactions:
+  AuAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_Au.par
+    *test parameters 23.6 2008
+  AuC in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+
+Repulsions:
+  AuAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_Au.par
+    *test parameters 23.6 2008
+  AuC in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~21.893 % filled.
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Jun  4 13:03:18 2018
+Nodename: discovery2.neu.edu
+Arch: x86_64
+Dir: /home/harms.n/Code/hotbit/lib/python/hotbit/test
+System: H3CO
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[12.31,11.86,10.32] Ang, 
+   cosines(12,13,23):[0.00,0.00,0.00]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.1 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+5 atoms, 11 states, 13.0 electrons (6.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element C in /home/harms.n/Code/hotbit/param/fixed_parameters/C.elm
+    *fixed set C
+Element O in /home/harms.n/Code/hotbit/param/fixed_parameters/O.elm
+    *no comment
+Element H in /home/harms.n/Code/hotbit/param/fixed_parameters/H.elm
+    *no comment
+
+Interactions:
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CO in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  OC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  OO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_O.par
+    *test parameters 23.6 2008
+  OH in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  HO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/fixed_parameters/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+  CO in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  OO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_O.par
+    *test parameters 23.6 2008
+  OH in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/fixed_parameters/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~80.165 % filled.
+Solved in 0.03 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+Solved in 0.00 seconds
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                               3.591         1 (100.0 %, 26.5 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.169         1 (  4.7 %        )   4.7 % |1|
+../geometry                          0.158       101 (  4.4 %, 18.0 %)   4.4 % |1|
+../../operations                     0.005       101 (  3.3 %        )   0.1 % ||
+../../displacements                  0.023       101 ( 14.7 %        )   0.6 % ||
+../solve                             0.416       101 ( 11.6 %, 88.9 %)  11.6 % |111|
+../../matrix construction            0.160       101 ( 38.3 %        )   4.4 % |2|
+../../LAPACK eigensolver             0.024       101 (  5.7 %        )   0.7 % ||
+../../Check norm (remove?)           0.015       101 (  3.7 %        )   0.4 % ||
+../../update                         0.156       101 ( 37.5 %,  8.0 %)   4.3 % |2|
+../../../rho                         0.013       101 (  8.0 %        )   0.3 % ||
+../../final update                   0.015       101 (  3.6 %        )   0.4 % ||
+../forces                            0.103       101 (  2.9 %, 86.9 %)   2.9 % |1|
+../../f_bs                           0.040       101 ( 39.1 %        )   1.1 % ||
+../../f_rep                          0.033       101 ( 32.4 %        )   0.9 % ||
+../../f_pp                           0.016       101 ( 15.5 %        )   0.4 % ||
+../energy                            0.104       100 (  2.9 %, 35.1 %)   2.9 % |1|
+../../e_bs                           0.013       100 ( 12.4 %        )   0.4 % ||
+../../ecoul                          0.003       100 (  3.1 %        )   0.1 % ||
+../../e_rep                          0.020       100 ( 19.6 %        )   0.6 % ||
+ -------------------------------------------------------------------------------
+total time        3.591 seconds      0 h  0 min  4 sec
+Mon Jun  4 13:03:20 2018
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Jun  4 13:03:20 2018
+Nodename: discovery2.neu.edu
+Arch: x86_64
+Dir: /home/harms.n/Code/hotbit/lib/python/hotbit/test
+System: CAu
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[11.85,10.00,10.00] Ang, 
+   cosines(12,13,23):[0.00,0.00,0.00]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.1 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+2 atoms, 13 states, 15.0 electrons (7.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element Au in /home/harms.n/Code/hotbit/param/fixed_parameters/Au.elm
+    *Scalar-relativistic gold
+Element C in /home/harms.n/Code/hotbit/param/fixed_parameters/C.elm
+    *fixed set C
+
+Interactions:
+  AuAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_Au.par
+    *test parameters 23.6 2008
+  AuC in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+
+Repulsions:
+  AuAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_Au.par
+    *test parameters 23.6 2008
+  AuC in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~21.893 % filled.
+Solved in 0.03 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.03 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.03 seconds
+Solved in 0.03 seconds
+Solved in 0.03 seconds
+Solved in 0.03 seconds
+Solved in 0.03 seconds
+Solved in 0.03 seconds
+Solved in 0.04 seconds
+Solved in 0.03 seconds
+Solved in 0.03 seconds
+Solved in 0.04 seconds
+Solved in 0.03 seconds
+Solved in 0.04 seconds
+Solved in 0.03 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.10 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                               4.082         1 (100.0 %, 47.6 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.553         1 ( 13.5 %        )  13.5 % |1111|
+../geometry                          0.258       101 (  6.3 %, 31.3 %)   6.3 % |11|
+../../operations                     0.004       101 (  1.6 %        )   0.1 % ||
+../../displacements                  0.077       101 ( 29.7 %        )   1.9 % |2|
+../solve                             0.816       101 ( 20.0 %, 95.3 %)  20.0 % |111111|
+../../matrix construction            0.632       101 ( 77.5 %        )  15.5 % |22222|
+../../LAPACK eigensolver             0.016       101 (  2.0 %        )   0.4 % ||
+../../Check norm (remove?)           0.011       101 (  1.4 %        )   0.3 % ||
+../../update                         0.108       101 ( 13.2 %,  8.4 %)   2.6 % |2|
+../../../rho                         0.009       101 (  8.4 %        )   0.2 % ||
+../../final update                   0.011       101 (  1.3 %        )   0.3 % ||
+../forces                            0.206       101 (  5.0 %, 95.1 %)   5.0 % |11|
+../../f_bs                           0.034       101 ( 16.5 %        )   0.8 % ||
+../../f_rep                          0.110       101 ( 53.5 %        )   2.7 % |2|
+../../f_pp                           0.052       101 ( 25.1 %        )   1.3 % ||
+../energy                            0.109       100 (  2.7 %, 53.8 %)   2.7 % |1|
+../../e_bs                           0.009       100 (  8.7 %        )   0.2 % ||
+../../ecoul                          0.002       100 (  2.2 %        )   0.1 % ||
+../../e_rep                          0.047       100 ( 43.0 %        )   1.1 % ||
+ -------------------------------------------------------------------------------
+total time        4.082 seconds      0 h  0 min  4 sec
+Mon Jun  4 13:03:22 2018
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Jun  4 13:03:22 2018
+Nodename: discovery2.neu.edu
+Arch: x86_64
+Dir: /home/harms.n/Code/hotbit/lib/python/hotbit/test
+System: H3CO
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[12.31,11.86,10.32] Ang, 
+   cosines(12,13,23):[0.00,0.00,0.00]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.1 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+5 atoms, 11 states, 13.0 electrons (6.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element C in /home/harms.n/Code/hotbit/param/fixed_parameters/C.elm
+    *fixed set C
+Element O in /home/harms.n/Code/hotbit/param/fixed_parameters/O.elm
+    *no comment
+Element H in /home/harms.n/Code/hotbit/param/fixed_parameters/H.elm
+    *no comment
+
+Interactions:
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CO in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  OC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  OO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_O.par
+    *test parameters 23.6 2008
+  OH in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  HO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/fixed_parameters/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+  CO in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  OO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_O.par
+    *test parameters 23.6 2008
+  OH in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/fixed_parameters/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~80.165 % filled.
+Solved in 0.07 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved 101 times; Iterations: avg 3.6, max 3, min 9
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                               4.080         1 (100.0 %, 40.3 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.093         1 (  2.3 %        )   2.3 % |1|
+../geometry                          0.078       101 (  1.9 %, 17.8 %)   1.9 % |1|
+../../operations                     0.003       101 (  3.3 %        )   0.1 % ||
+../../displacements                  0.011       101 ( 14.6 %        )   0.3 % ||
+../solve                             1.360       101 ( 33.3 %, 88.2 %)  33.3 % |1111111111|
+../../matrix construction            0.077       101 (  5.7 %        )   1.9 % |2|
+../../gamma matrix                   0.075       101 (  5.5 %        )   1.8 % |2|
+../../h1                             0.276       468 ( 20.3 %        )   6.8 % |22|
+../../LAPACK eigensolver             0.053       468 (  3.9 %        )   1.3 % ||
+../../Check norm (remove?)           0.034       468 (  2.5 %        )   0.8 % ||
+../../update                         0.671       468 ( 49.3 %,  4.5 %)  16.4 % |22222|
+../../../rho                         0.030       468 (  4.5 %        )   0.7 % ||
+../../final update                   0.013       101 (  1.0 %        )   0.3 % ||
+../forces                            0.061       101 (  1.5 %, 85.6 %)   1.5 % ||
+../../f_bs                           0.020       101 ( 33.5 %        )   0.5 % ||
+../../f_rep                          0.017       101 ( 27.9 %        )   0.4 % ||
+../../f_es                           0.006       101 ( 10.2 %        )   0.2 % ||
+../../f_pp                           0.009       101 ( 14.0 %        )   0.2 % ||
+../energy                            0.053       100 (  1.3 %, 36.0 %)   1.3 % ||
+../../e_bs                           0.007       100 ( 12.4 %        )   0.2 % ||
+../../ecoul                          0.002       100 (  4.5 %        )   0.1 % ||
+../../e_rep                          0.010       100 ( 19.1 %        )   0.2 % ||
+ -------------------------------------------------------------------------------
+total time        4.080 seconds      0 h  0 min  4 sec
+Mon Jun  4 13:03:24 2018
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Jun  4 13:03:24 2018
+Nodename: discovery2.neu.edu
+Arch: x86_64
+Dir: /home/harms.n/Code/hotbit/lib/python/hotbit/test
+System: CAu
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[11.85,10.00,10.00] Ang, 
+   cosines(12,13,23):[0.00,0.00,0.00]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.1 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+2 atoms, 13 states, 15.0 electrons (7.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element Au in /home/harms.n/Code/hotbit/param/fixed_parameters/Au.elm
+    *Scalar-relativistic gold
+Element C in /home/harms.n/Code/hotbit/param/fixed_parameters/C.elm
+    *fixed set C
+
+Interactions:
+  AuAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_Au.par
+    *test parameters 23.6 2008
+  AuC in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+
+Repulsions:
+  AuAu in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_Au.par
+    *test parameters 23.6 2008
+  AuC in /home/harms.n/Code/hotbit/param/fixed_parameters/Au_C.par
+    *test parameters 23.6 2008
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~21.893 % filled.
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved 101 times; Iterations: avg 4.0, max 3, min 11
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                               3.652         1 (100.0 %, 56.0 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.213         1 (  5.8 %        )   5.8 % |11|
+../geometry                          0.138       101 (  3.8 %, 31.1 %)   3.8 % |1|
+../../operations                     0.002       101 (  1.6 %        )   0.1 % ||
+../../displacements                  0.041       101 ( 29.5 %        )   1.1 % ||
+../solve                             1.515       101 ( 41.5 %, 90.9 %)  41.5 % |111111111111|
+../../matrix construction            0.330       101 ( 21.8 %        )   9.0 % |222|
+../../gamma matrix                   0.105       101 (  7.0 %        )   2.9 % |2|
+../../h1                             0.271       508 ( 17.9 %        )   7.4 % |22|
+../../LAPACK eigensolver             0.043       508 (  2.8 %        )   1.2 % ||
+../../Check norm (remove?)           0.028       508 (  1.9 %        )   0.8 % ||
+../../update                         0.589       508 ( 38.9 %,  4.2 %)  16.1 % |22222|
+../../../rho                         0.024       508 (  4.2 %        )   0.7 % ||
+../../final update                   0.010       101 (  0.6 %        )   0.3 % ||
+../forces                            0.118       101 (  3.2 %, 94.1 %)   3.2 % |1|
+../../f_bs                           0.018       101 ( 15.3 %        )   0.5 % ||
+../../f_rep                          0.060       101 ( 50.5 %        )   1.6 % ||
+../../f_es                           0.005       101 (  4.3 %        )   0.1 % ||
+../../f_pp                           0.028       101 ( 24.1 %        )   0.8 % ||
+../energy                            0.060       100 (  1.7 %, 54.3 %)   1.7 % ||
+../../e_bs                           0.005       100 (  8.5 %        )   0.1 % ||
+../../ecoul                          0.002       100 (  3.2 %        )   0.1 % ||
+../../e_rep                          0.026       100 ( 42.6 %        )   0.7 % ||
+ -------------------------------------------------------------------------------
+total time        3.652 seconds      0 h  0 min  4 sec
+Mon Jun  4 13:03:26 2018
+
+
+
+
+
+
+ _           _    _     _ _
+| |__   ___ | |_ | |__ |_| |_
+|  _ \ / _ \|  _||  _ \| |  _|
+| | | | ( ) | |_ | ( ) | | |_
+|_| |_|\___/ \__|\____/|_|\__|  ver. 0.1 (svn=exported)
+Distributed under GNU GPL; see /home/harms.n/Code/hotbit/lib/python/LICENSE
+Date: Mon Jun  4 13:03:26 2018
+Nodename: discovery2.neu.edu
+Arch: x86_64
+Dir: /home/harms.n/Code/hotbit/lib/python/hotbit/test
+System: H3CO
+       Charge= 0.0
+       Container Bravais: pbc:[0,0,0], cell:[12.31,11.86,10.32] Ang, 
+   cosines(12,13,23):[0.00,0.00,0.00]
+Symmetry operations (if any):
+       0: pbc= False , kappa-points=1, M=1
+       1: pbc= False , kappa-points=1, M=1
+       2: pbc= False , kappa-points=1, M=1
+Electronic temperature: 0.1 eV
+Mixer: Anderson with memory = 3 , mixing parameter = 0.2
+5 atoms, 11 states, 13.0 electrons (6.5 filled states)
+Initial n ranges:[0,0] [0,0] [0,0] 
+Element C in /home/harms.n/Code/hotbit/param/fixed_parameters/C.elm
+    *fixed set C
+Element O in /home/harms.n/Code/hotbit/param/fixed_parameters/O.elm
+    *no comment
+Element H in /home/harms.n/Code/hotbit/param/fixed_parameters/H.elm
+    *no comment
+
+Interactions:
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+    *Quadratic original (r/r0)**2, r0=1.85*r_cov,
+    *Original repulsion (probably)
+  CO in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  OC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  OO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_O.par
+    *test parameters 23.6 2008
+  OH in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  HO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/fixed_parameters/H_H.par
+    *test parameters 23.6 2008
+
+Repulsions:
+  CC in /home/harms.n/Code/hotbit/param/fixed_parameters/C_C.par
+    *test parameters 23.6 2008
+  CO in /home/harms.n/Code/hotbit/param/fixed_parameters/C_O.par
+    *test parameters 23.6 2008
+  CH in /home/harms.n/Code/hotbit/param/fixed_parameters/C_H.par
+    *test parameters 23.6 2008
+  OO in /home/harms.n/Code/hotbit/param/fixed_parameters/O_O.par
+    *test parameters 23.6 2008
+  OH in /home/harms.n/Code/hotbit/param/fixed_parameters/O_H.par
+    *test parameters 23.6 2008
+  HH in /home/harms.n/Code/hotbit/param/fixed_parameters/H_H.par
+    *test parameters 23.6 2008
+
+Memory consumption estimate: > 0.00 GB
+Hamiltonian ~80.165 % filled.
+Solved in 0.07 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.02 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved in 0.01 seconds
+Solved 101 times; Iterations: avg 3.5, max 3, min 7
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                               3.660         1 (100.0 %, 34.1 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.069         1 (  1.9 %        )   1.9 % |1|
+../geometry                          0.061       101 (  1.7 %, 17.9 %)   1.7 % |1|
+../../operations                     0.002       101 (  3.3 %        )   0.1 % ||
+../../displacements                  0.009       101 ( 14.6 %        )   0.2 % ||
+../solve                             1.028       101 ( 28.1 %, 88.2 %)  28.1 % |11111111|
+../../matrix construction            0.059       101 (  5.8 %        )   1.6 % ||
+../../gamma matrix                   0.061       101 (  5.9 %        )   1.7 % ||
+../../h1                             0.209       453 ( 20.3 %        )   5.7 % |22|
+../../LAPACK eigensolver             0.040       453 (  3.9 %        )   1.1 % ||
+../../Check norm (remove?)           0.026       453 (  2.5 %        )   0.7 % ||
+../../update                         0.502       453 ( 48.8 %,  4.5 %)  13.7 % |2222|
+../../../rho                         0.023       453 (  4.5 %        )   0.6 % ||
+../../final update                   0.010       101 (  1.0 %        )   0.3 % ||
+../forces                            0.048       101 (  1.3 %, 85.4 %)   1.3 % ||
+../../f_bs                           0.016       101 ( 33.4 %        )   0.4 % ||
+../../f_rep                          0.013       101 ( 27.7 %        )   0.4 % ||
+../../f_es                           0.005       101 ( 10.1 %        )   0.1 % ||
+../../f_pp                           0.007       101 ( 14.2 %        )   0.2 % ||
+../energy                            0.042       100 (  1.2 %, 36.1 %)   1.2 % ||
+../../e_bs                           0.005       100 ( 12.5 %        )   0.1 % ||
+../../ecoul                          0.002       100 (  4.6 %        )   0.1 % ||
+../../e_rep                          0.008       100 ( 19.1 %        )   0.2 % ||
+ -------------------------------------------------------------------------------
+total time        3.660 seconds      0 h  0 min  4 sec
+Mon Jun  4 13:03:28 2018
+Solved in 0.01 seconds
+Solved 101 times; Iterations: avg 4.0, max 3, min 12
+
+Timing:
+            label                    time     calls    %sub  %covered   %tot
+-------------------------------------------------------------------------------
+Hotbit                               2.255         1 (100.0 %, 91.1 %) 100.0 % |000000000000000000000000000000|
+../initialization                    0.207         1 (  9.2 %        )   9.2 % |111|
+../geometry                          0.138       101 (  6.1 %, 31.3 %)   6.1 % |11|
+../../operations                     0.002       101 (  1.6 %        )   0.1 % ||
+../../displacements                  0.041       101 ( 29.7 %        )   1.8 % |2|
+../solve                             1.530       101 ( 67.8 %, 90.9 %)  67.8 % |11111111111111111111|
+../../matrix construction            0.331       101 ( 21.6 %        )  14.7 % |2222|
+../../gamma matrix                   0.112       101 (  7.3 %        )   5.0 % |2|
+../../h1                             0.273       510 ( 17.9 %        )  12.1 % |2222|
+../../LAPACK eigensolver             0.043       510 (  2.8 %        )   1.9 % |2|
+../../Check norm (remove?)           0.029       510 (  1.9 %        )   1.3 % ||
+../../update                         0.593       510 ( 38.8 %,  4.1 %)  26.3 % |22222222|
+../../../rho                         0.024       510 (  4.1 %        )   1.1 % ||
+../../final update                   0.010       101 (  0.6 %        )   0.4 % ||
+../forces                            0.119       101 (  5.3 %, 94.1 %)   5.3 % |11|
+../../f_bs                           0.018       101 ( 15.3 %        )   0.8 % ||
+../../f_rep                          0.060       101 ( 50.6 %        )   2.7 % |2|
+../../f_es                           0.005       101 (  4.3 %        )   0.2 % ||
+../../f_pp                           0.029       101 ( 24.0 %        )   1.3 % ||
+../energy                            0.061       100 (  2.7 %, 54.0 %)   2.7 % |1|
+../../e_bs                           0.005       100 (  8.6 %        )   0.2 % ||
+../../ecoul                          0.002       100 (  3.2 %        )   0.1 % ||
+../../e_rep                          0.026       100 ( 42.3 %        )   1.1 % ||
+ -------------------------------------------------------------------------------
+total time        2.255 seconds      0 h  0 min  2 sec
+Mon Jun  4 13:03:28 2018

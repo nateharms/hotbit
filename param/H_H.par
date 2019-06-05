@@ -1,5 +1,14 @@
+repulsion_comment=
+test parameters 23.6 2008
 
-# H H REPULSION 
+
+slako_comment=
+test parameters 23.6 2008
+
+
+
+
+# H H REPULSION (from others)
 # 100
 repulsion=
   0.00000000 10.35029899
